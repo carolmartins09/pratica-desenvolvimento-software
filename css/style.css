@@ -1,0 +1,52 @@
+/*style.css*/
+
+main {
+    background-color: #ffffff;
+    margin: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-formulario, .titulo-div {
+    font-size: 24px;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 16px;
+	margin: 0 0 8px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 8px 24px;
+	width: 50%;
+}
+
+.mostrar-dados {
+	width: 120px;
+	padding: 8px 0;
+	background: green;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	transition: 1s all;
+	cursor: pointer;
+    margin: auto auto auto 200px;
+}
+
+.dados {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dados-digitados {
+    display: none;
+}
